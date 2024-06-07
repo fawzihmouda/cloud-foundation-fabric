@@ -1,2 +1,5 @@
 kfp==1.8.19
 google-cloud-pipeline-components==1.0.39
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
