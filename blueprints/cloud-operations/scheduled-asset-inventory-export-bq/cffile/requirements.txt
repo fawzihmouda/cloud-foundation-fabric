@@ -1,3 +1,4 @@
 google-api-python-client>=1.10.1
 google-cloud-monitoring>=1.1.0
 google-cloud-bigquery
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
